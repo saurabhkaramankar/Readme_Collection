@@ -1,5 +1,8 @@
 Machine learning libraries are software tools that provide pre-built algorithms and functions for developing machine learning models. These libraries simplify the process of building machine learning models by providing a high-level interface to work with, abstracting away many of the low-level details of machine learning.
 
+![WhatsApp Image 2023-05-27 at 22 34 13](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/511773ee-7c3b-4985-bcc9-3046e0392729)
+
+
 Scikit-learn: Scikit-learn is a popular machine learning library in Python that provides a variety of machine learning algorithms, including classification, regression, clustering, and dimensionality reduction.
 
 TensorFlow: TensorFlow is an open-source machine learning library developed by Google that provides a powerful set of tools for building and training deep learning models.
@@ -56,3 +59,7 @@ PyTorch is based on the dynamic computation graph concept, which allows users to
 PyTorch provides a range of APIs for building and training neural networks, including a high-level interface called torch.nn, which allows users to define neural network layers and architectures. It also includes a range of pre-built models, such as the ResNet image classification model, which can be fine-tuned for specific tasks.
 
 PyTorch is known for its easy-to-use and intuitive API, as well as its strong community support, and is widely used in both academia and industry for a variety of machine learning tasks, such as natural language processing, computer vision, and deep reinforcement learning.
+
+![inbox_5102917_9457385f2a6d45c45343d63aa9dcff66_libra](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/707924be-9ff4-4a3c-b546-861333145410)
+
+![inbox_7002548_8abf2ccb02a975e7408778a0114431fa_FhEftekXgAcmviO](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/d0e3c900-123b-4dbc-ad5c-b007384aa6a6)

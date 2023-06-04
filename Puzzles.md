@@ -185,3 +185,111 @@ Tell me what you think about Google charging users $1 per month to use Gmail.
 If you find all the above questions hard to answer, here comes the last one which will definitely give you a stroke even in understanding the question.
 
 You’re the captain of a pirate ship, and your crew gets to vote on how the gold is divided up. If fewer than half of the pirates agree with you, you die. How do you recommend apportioning the gold in such a way that you get a good share of the booty, but still survive?
+
+---
+
+Minimum cut Puzzle
+You have got someone working for you for five days and a gold bar to pay him. You must give them a piece of gold at the end of every day. What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/5th each day?
+
+ 
+100 Doors
+There are 100 doors in a row, all doors are initially closed. A person walks through all doors multiple times and toggle (if open then close, if close then open) them in the following way: In the first walk, the person toggles every door In the second walk, the person toggles every second door, i.e., 2nd, 4th, 6th, 8th, … In the third walk, the person toggles every third door, i.e. 3rd, 6th, 9th, … Likewise, In the 100th walk, the person toggles the 100th door. 
+Which doors are open in the end?
+
+Solution: 
+A door is toggled in an ith walk if i divide door number. For example, door number 45 is toggled in the 1st, 3rd, 5th, 9th,15th, and 45th walks.
+The door is switched back to an initial stage for every pair of divisors. For example, 45 is toggled 6 times for 3 pairs (5, 9), (15, 3), and (1, 45). 
+
+It looks like all doors would become closed at the end. But there are door numbers that would open, for example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,…, and 100 would become open. Now, for prime numbers like 2,3,5,7… the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.
+
+So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100. 
+ 
+Find the fastest 3 horses
+There are 25 horses among which you need to find out the fastest 3 horses. You can conduct a race among at most 5 to find out their relative speed. At no point, you can find out the actual speed of the horse in a race. Find out the minimum no. of races that are required to get the top 3 horses. 
+
+Solution :
+Make group of 5 horses and run 5 races. Suppose five groups are [a, b, c, d, e] and next alphabet is its individual rank in this group(of 5 horses).for eg. d3 means horse in group d and has rank 3rd in his group. [ 5 RACES DONE ] 
+a1 b1 c1 d1 e1 
+a2 b2 c2 d2 e2 
+a3 b3 c3 d3 e3 
+a4 b4 c4 d4 e4 
+a5 b5 c5 d5 e5 
+
+Now make a race of (a1,b1,c1,d1,e1).[RACE 6 DONE] suppose result is a1>b1>c1>d1>e1 
+which implies a1 must be FIRST. 
+b1 and c1 MAY BE(but not must be) 2nd and 3rd. 
+FOR II position, horse will be either b1 or a2 
+(we have to find top 3 horse therefore we choose horses b1,b2,a2,a3,c1 do racing among them [RACE 7 DONE]. 
+The only possibilities are : 
+c1 may be third 
+b1 may be second or third 
+b2 may be third 
+a2 may be second or third 
+a3 may be third 
+The final result will give ANSWER. suppose result is a2>a3>b1>c1>b2 
+then answer is a1,a2,a3,b1,c1. 
+HENCE ANSWER is 7 RACES 
+
+Please note that the 7 races work for the case also when all top 3 horses are same group or any top two horses are in same group. The group which has top 3 horses would always have winner in 6th race. In 7th race, we consider 2nd and 3rd horses of the group whose horse is overall winner. We also consider 2nd horse of the group whose horse came 2nd in 6th race. 
+
+ 
+Calculate total distance traveled by the bee
+Two trains are on the same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from the first train to the second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance traveled by the bee. The speed of the bee is 80 km/h. 
+
+ 
+3 cuts to cut the round cake into 8 equal pieces
+You have a birthday cake and have to cut it into 8 equal pieces by making 3 cuts only. How do you do it?
+
+ 
+Find the last ball to remain after the entire process
+There are 20 red balls and 16 blue balls in a bag. Any 2 balls are removed at each step and are replaced with a new ball on the basis of the following conditions: If they are of the same color, then they are replaced by a red ball. If they are of different colors, then they are replaced with a blue ball. Find the last ball to remain after the entire process.
+Here replacement means that the new ball is inserted into the bag.
+
+ 
+The Two Water Jug
+You are on the side of the river. You are given an m liter jug and an n liter jug where 0 < m < n. Both the jugs are initially empty. The jugs don’t have markings to allow measuring smaller quantities. You have to use the jugs to measure d liters of water where d < n. Determine the minimum no of operations to be performed to obtain d liters of water in one of the jugs. 
+The operations you can perform are: 
+Empty a Jug
+Fill a Jug
+Pour water from one jug to the other until one of the jugs is either empty or full.
+
+ 
+3 Bulbs and 3 Switches
+There is a room with a door (closed) and three light bulbs. Outside the room, there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. Identify each switch with its bulb. All bulbs are in working condition.
+ 
+How to Measure 45 minutes using two identical wires?
+How do we measure forty-five minutes using two identical wires, each of which takes an hour to burn? We have matchsticks with us. The wires burn non-uniformly. So, for example, the two halves of wire might burn in 10 minutes and 50 minutes respectively.
+
+ 
+Find ages of daughters
+Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him the first hint.
+The product of their ages is 72. 
+Shyam says this is not enough information Alok gives him a second hint.
+The sum of their ages is equal to my house number. 
+Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+Alok admits that Shyam can not guess and gives him the third hint
+The oldest girl likes strawberry ice cream. 
+Shyam is able to guess after the third hint.
+10 Balls in 5 Lines
+Given are ten balls, the task is to place these 10 balls in five lines such that each line contains exactly 4 balls.
+
+ 
+Pay an employee using a gold rod of 7 units?
+An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee, so that the number of employee’s rod units increases by one at the end of each day?
+
+ 
+Torch and Bridge
+There are 4 people (A, B, C, and D) who want to cross a bridge at night.
+A takes 1 minute to cross the bridge.
+B takes 2 minutes to cross the bridge.
+C takes 5 minutes to cross the bridge.
+D takes 8 minutes to cross the bridge. 
+          
+
+Poison and Rat
+There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.  
+
+ 
+Camel and Banana Puzzle
+A person has 3000 bananas and a camel. The person wants to transport the maximum number of bananas to a destination which is 1000 KMs away, using only the camel as a mode of transportation. The camel cannot carry more than 1000 bananas at a time and eats a banana every km it travels. What is the maximum number of bananas that can be transferred to the destination using only camel (no other mode of transportation is allowed). 
+

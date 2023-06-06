@@ -258,8 +258,8 @@ Therefore, the total distance travelled by bee
 3 cuts to cut the round cake into 8 equal pieces
 You have a birthday cake and have to cut it into 8 equal pieces by making 3 cuts only. How do you do it?
 
-![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/0eead73f-229b-435f-a91b-3fc755150acd)
-![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/9b22d41d-bfd3-4c26-8b21-2f1b543af007)
+<img src = "https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/0eead73f-229b-435f-a91b-3fc755150acd" width="300"/>
+<img src = "https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/9b22d41d-bfd3-4c26-8b21-2f1b543af007" width="300"/>
 
 
 ---
@@ -294,7 +294,7 @@ Pour water from one jug to the other until one of the jugs is either empty or fu
 
 Solution:
 
-![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/3b0dd558-0a7e-48b1-aba0-1062839712eb)
+<img src = "https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/3b0dd558-0a7e-48b1-aba0-1062839712eb" width="500"/>
 For example, if we have a jug J1 of 5 liters (n = 5) and another jug J2 of 3 liters (m = 3) and we have to measure 1 liter of water using them. The associated equation will be 5n + 3m = 1. First of all this problem can be solved since gcd(3,5) = 1 which divides 1 (See this for detailed explanation). Using the Extended Euclid algorithm, we get values of n and m for which the equation is satisfied which are n = 2 and m = -3. These values of n, m also have some meaning like here n = 2 and m = -3 means that we have to fill J1 twice and empty J2 thrice. 
 Now to find the minimum no of operations to be performed we have to decide which jug should be filled first. Depending upon which jug is chosen to be filled and which to be emptied we have two different solutions and the minimum among them would be our answer.
 
@@ -360,6 +360,17 @@ If we light a stick, it takes 60 minutes to burn completely. What if we light th
 
 ---
 
+# 10 Balls in 5 Lines
+Given are ten balls, the task is to place these 10 balls in five lines such that each line contains exactly 4 balls.
+
+line contain exactly 4 balls.  Solution: The solution to the above puzzle can be obtained as:
+
+Draw the star with a pentagon in the centre. 
+Place each ball at the intersection of extended lines of pentagon 
+Then place remaining balls on 5 vertices of pentagon. 
+![Solution-_-10-Balls-in-5-Lines-Puzzle](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/a4558651-c00e-4068-97ac-870df719ab38)
+
+
 # Find ages of daughters
 Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him the first hint.
 The product of their ages is 72. 
@@ -369,14 +380,25 @@ Shyam goes out and looks at the house number and tells “I still do not have en
 Alok admits that Shyam can not guess and gives him the third hint
 The oldest girl likes strawberry ice cream. 
 Shyam is able to guess after the third hint.
-10 Balls in 5 Lines
-Given are ten balls, the task is to place these 10 balls in five lines such that each line contains exactly 4 balls.
 
 ---
 
  
 # Pay an employee using a gold rod of 7 units?
-An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee, so that the number of employee’s rod units increases by one at the end of each day?
+
+An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay to the employee, so that the number of employee’s rod units increases by one at the end of each day? The employer can make at most 2 cuts in the rod. 
+
+(Hint- after the end of the day employee’s can’t spend any part of rod)
+
+Solution: 
+The employer can pay for seven days by making 2 cuts in a way that he has 3 rods of size 1, 2 and 4. 
+1st Day: Employer gives 1 unit cut. 
+2nd day: Takes back 1 unit cut from employee given on the first day and gives 2 unit cut. 
+3rd Day: Gives 1 unit and then the employer is left with 4 unit rod lengths. 
+4th Day: Takes back cuts of 1 and 2 units. Gives the cut of 4 units. 
+5th Day: Gives cut of 1 unit to the employee. 
+6th Day: Takes back cut of 1 unit and gives a cut of 2 units. 
+7th Day: Gives cut of 1 unit to the employee. 
 
 ---
  
@@ -390,7 +412,13 @@ D takes 8 minutes to cross the bridge.
 ---
 
 # Poison and Rat
-There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.  
+There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour. 
+
+Solution: 
+We need to figure out in hour. We need 10 rats to figure out the poisoned bottle. The result is based on binary number system. We get 10 using ⌈ Log21000 ⌉. 
+
+The idea is to number bottles from 1 to 1000 and write their corresponding binary numbers on the bottle. Each rat is assigned a position in the binary numbers written on bottles. Let us take an example. Rat 1 represents first bit in every bottle, rat 2 represents second bit and so on. If rat numbers 2, 4 and 6 die, then bottle number 42 (Binary 0000101010) is poisoned. 
+
 
 ---
 

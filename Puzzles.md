@@ -188,11 +188,12 @@ You’re the captain of a pirate ship, and your crew gets to vote on how the gol
 
 ---
 
-Minimum cut Puzzle
+# Minimum cut Puzzle
 You have got someone working for you for five days and a gold bar to pay him. You must give them a piece of gold at the end of every day. What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/5th each day?
 
- 
-100 Doors
+---
+
+# 100 Doors
 There are 100 doors in a row, all doors are initially closed. A person walks through all doors multiple times and toggle (if open then close, if close then open) them in the following way: In the first walk, the person toggles every door In the second walk, the person toggles every second door, i.e., 2nd, 4th, 6th, 8th, … In the third walk, the person toggles every third door, i.e. 3rd, 6th, 9th, … Likewise, In the 100th walk, the person toggles the 100th door. 
 Which doors are open in the end?
 
@@ -203,8 +204,10 @@ The door is switched back to an initial stage for every pair of divisors. For ex
 It looks like all doors would become closed at the end. But there are door numbers that would open, for example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,…, and 100 would become open. Now, for prime numbers like 2,3,5,7… the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.
 
 So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100. 
+
+---
  
-Find the fastest 3 horses
+# Find the fastest 3 horses
 There are 25 horses among which you need to find out the fastest 3 horses. You can conduct a race among at most 5 to find out their relative speed. At no point, you can find out the actual speed of the horse in a race. Find out the minimum no. of races that are required to get the top 3 horses. 
 
 Solution :
@@ -232,36 +235,47 @@ HENCE ANSWER is 7 RACES
 
 Please note that the 7 races work for the case also when all top 3 horses are same group or any top two horses are in same group. The group which has top 3 horses would always have winner in 6th race. In 7th race, we consider 2nd and 3rd horses of the group whose horse is overall winner. We also consider 2nd horse of the group whose horse came 2nd in 6th race. 
 
- 
-Calculate total distance traveled by the bee
-Two trains are on the same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from the first train to the second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance traveled by the bee. The speed of the bee is 80 km/h. 
+---
 
  
+# Calculate total distance traveled by the bee
+Two trains are on the same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from the first train to the second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance traveled by the bee. The speed of the bee is 80 km/h. 
+
+---
+
+# Birthday Cake Puzzle. 
 3 cuts to cut the round cake into 8 equal pieces
 You have a birthday cake and have to cut it into 8 equal pieces by making 3 cuts only. How do you do it?
 
+---
+
  
-Find the last ball to remain after the entire process
+# Find the last ball to remain after the entire process
 There are 20 red balls and 16 blue balls in a bag. Any 2 balls are removed at each step and are replaced with a new ball on the basis of the following conditions: If they are of the same color, then they are replaced by a red ball. If they are of different colors, then they are replaced with a blue ball. Find the last ball to remain after the entire process.
 Here replacement means that the new ball is inserted into the bag.
 
+---
  
-The Two Water Jug
+# The Two Water Jug
 You are on the side of the river. You are given an m liter jug and an n liter jug where 0 < m < n. Both the jugs are initially empty. The jugs don’t have markings to allow measuring smaller quantities. You have to use the jugs to measure d liters of water where d < n. Determine the minimum no of operations to be performed to obtain d liters of water in one of the jugs. 
 The operations you can perform are: 
 Empty a Jug
 Fill a Jug
 Pour water from one jug to the other until one of the jugs is either empty or full.
 
+---
  
-3 Bulbs and 3 Switches
+# 3 Bulbs and 3 Switches
 There is a room with a door (closed) and three light bulbs. Outside the room, there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. Identify each switch with its bulb. All bulbs are in working condition.
+
+---
  
-How to Measure 45 minutes using two identical wires?
+# How to Measure 45 minutes using two identical wires?
 How do we measure forty-five minutes using two identical wires, each of which takes an hour to burn? We have matchsticks with us. The wires burn non-uniformly. So, for example, the two halves of wire might burn in 10 minutes and 50 minutes respectively.
 
- 
-Find ages of daughters
+---
+
+# Find ages of daughters
 Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him the first hint.
 The product of their ages is 72. 
 Shyam says this is not enough information Alok gives him a second hint.
@@ -273,23 +287,62 @@ Shyam is able to guess after the third hint.
 10 Balls in 5 Lines
 Given are ten balls, the task is to place these 10 balls in five lines such that each line contains exactly 4 balls.
 
- 
-Pay an employee using a gold rod of 7 units?
-An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee, so that the number of employee’s rod units increases by one at the end of each day?
+---
 
  
-Torch and Bridge
+# Pay an employee using a gold rod of 7 units?
+An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee, so that the number of employee’s rod units increases by one at the end of each day?
+
+---
+ 
+# Torch and Bridge
 There are 4 people (A, B, C, and D) who want to cross a bridge at night.
 A takes 1 minute to cross the bridge.
 B takes 2 minutes to cross the bridge.
 C takes 5 minutes to cross the bridge.
 D takes 8 minutes to cross the bridge. 
           
+---
 
-Poison and Rat
+# Poison and Rat
 There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.  
 
- 
-Camel and Banana Puzzle
+---
+
+# Camel and Banana Puzzle
 A person has 3000 bananas and a camel. The person wants to transport the maximum number of bananas to a destination which is 1000 KMs away, using only the camel as a mode of transportation. The camel cannot carry more than 1000 bananas at a time and eats a banana every km it travels. What is the maximum number of bananas that can be transferred to the destination using only camel (no other mode of transportation is allowed). 
 
+---
+
+# Bermuda Triangle
+The Bermuda Triangle is a place in the Atlantic Ocean where ships and airplanes supposedly disappear without a trace. In the picture below, a square appears when we rearrange the pieces of the upper triangle to form the lower triangle. The pieces in both pictures are identical. Can you explain the origin of the square? You will need your knowledge of geometry to solve this problem. ![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/2403593a-b260-49f7-96fa-2031a08cc592)
+![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/245c282e-6891-4412-9411-98763114718d) 
+
+The area of a right triangle is computed by multiplying the base times the height and dividing by two. The pieces of the puzzle have an area of 32 square units. Although they can be assembled to form what appears to be a 13×5 right triangle, they actually form quadrilaterals that are slightly smaller or slightly bigger than a 13×5 right triangle. The long side of the these “triangles”, i.e, what seems to be the hypotenuse, is not a straight line.
+
+The top figure has an area of 32 square units. The bottom figure, including the empty square, has an area of 33 square units. A real 13×5 right triangle would have an area of 32.5 square units. The distortion is difficult to see because one square of the picture is approximately 3% of the area.
+
+The distortion can be seen more clearly when the empty square constitutes a larger percentage of the area, as in the figure below where 1 square represents 13% of the area.
+
+---
+
+# 9 min 2 hourglass puzzle.
+Using only a Four-minute hourglass and a seven-minute hourglass,
+How will you measure exactly nine minutes?
+
+Restriction:- Without the process taking longer than nine minutes.
+
+hourglass
+
+Solution -
+We measure 7 Minute from One Hourglass. We reverse it at 7th minute
+And, 4+4=8 Minutes from Second Hourglass         –   8 Minutes
+8(from 1)-7(From 2) = 1 Minute                                     –   1 Minutes
+TOTAL = 9 MINUTES
+
+EXPLANATION-
+0 Minutes – Start both hourglass at the same time.
+4 Minutes – The four minute glass runs out. Flip the four minute glass.
+7 Minutes – The seven minute glass runs out. Flip the seven minute glass.
+8 Minutes – The four minute glass runs out; the seven minute glass has been running for one minute. Flip the seven minute glass.
+9 Minutes – The seven minute glass runs out.

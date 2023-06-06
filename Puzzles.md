@@ -241,18 +241,47 @@ Please note that the 7 races work for the case also when all top 3 horses are sa
 # Calculate total distance traveled by the bee
 Two trains are on the same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from the first train to the second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance traveled by the bee. The speed of the bee is 80 km/h. 
 
+Solution:
+
+u = 50 km/hr
+v = 70 km/hr
+d = 100 km
+b = 80 km/hr
+
+Therefore, the total distance travelled by bee 
+= b*d/(u+v) 
+= 80 * 100/(50+70) 
+= 66.67 km (approx)
 ---
 
 # Birthday Cake Puzzle. 
 3 cuts to cut the round cake into 8 equal pieces
 You have a birthday cake and have to cut it into 8 equal pieces by making 3 cuts only. How do you do it?
 
+![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/0eead73f-229b-435f-a91b-3fc755150acd)
+![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/9b22d41d-bfd3-4c26-8b21-2f1b543af007)
+
+
 ---
 
  
 # Find the last ball to remain after the entire process
-There are 20 red balls and 16 blue balls in a bag. Any 2 balls are removed at each step and are replaced with a new ball on the basis of the following conditions: If they are of the same color, then they are replaced by a red ball. If they are of different colors, then they are replaced with a blue ball. Find the last ball to remain after the entire process.
+There are 20 red balls and 16 blue balls in a bag. Any 2 balls are removed at each step and are replaced with a new ball on the basis of the following conditions: If they are of the same color, then they are replaced by a red ball. Once you take out the balls, you do not put them back in the bag – so the balls keep reducing. If they are of different colors, then they are replaced with a blue ball. Find the last ball to remain after the entire process.What is color of last ball
 Here replacement means that the new ball is inserted into the bag.
+
+Solution
+
+Answer: Blue Balls
+
+Observations:
+
+There are basically 3 Cases:
+1.When colors of both the picked balls are Red: Here, overall red balls are reduced by 2 and blue balls are increased by 1.
+2.When colors of both the picked balls are Blue: Here, overall blue balls are decreased by 1.
+3.When colors of both the picked balls are different: Here also, overall blue balls are decreased by 1.
+Red Balls can only be reduced by two and that is in the 1st condition, i.e., if you choose both red balls, then they are replaced by a single blue ball, in no other ways you can reduce red balls. 
+Blue Balls can be reduced by one in the  2nd  and 3rd condition if you choose both balls as blue and if both balls are of different color.
+Now, since red balls are always reduced by two. So, at any point during the replacement process the count of red balls is always even, i.e. you will end up with either 0 or 2 or 4…(even number) red balls in the bag. There will never be a situation in which the bag contains an odd number of red balls. As a result, the last ball in the bag will be a blue ball in any combination of replacements.
 
 ---
  
@@ -263,15 +292,71 @@ Empty a Jug
 Fill a Jug
 Pour water from one jug to the other until one of the jugs is either empty or full.
 
+Solution:
+
+![image](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/3b0dd558-0a7e-48b1-aba0-1062839712eb)
+For example, if we have a jug J1 of 5 liters (n = 5) and another jug J2 of 3 liters (m = 3) and we have to measure 1 liter of water using them. The associated equation will be 5n + 3m = 1. First of all this problem can be solved since gcd(3,5) = 1 which divides 1 (See this for detailed explanation). Using the Extended Euclid algorithm, we get values of n and m for which the equation is satisfied which are n = 2 and m = -3. These values of n, m also have some meaning like here n = 2 and m = -3 means that we have to fill J1 twice and empty J2 thrice. 
+Now to find the minimum no of operations to be performed we have to decide which jug should be filled first. Depending upon which jug is chosen to be filled and which to be emptied we have two different solutions and the minimum among them would be our answer.
+
+Solution 1 (Always pour from m liter jug into n liter jug) 
+
+Fill the m litre jug and empty it into n liter jug.
+Whenever the m liter jug becomes empty fill it.
+Whenever the n liter jug becomes full empty it.
+Repeat steps 1,2,3 till either n liter jug or the m liter jug contains d litres of water.
+Each of steps 1, 2 and 3 are counted as one operation that we perform. Let us say algorithm 1 achieves the task in C1 no of operations.
+
+
+Solution 2 (Always pour from n liter jug into m liter jug)  
+
+Fill the n liter jug and empty it into m liter jug.
+Whenever the n liter jug becomes empty fill it.
+Whenever the m liter jug becomes full empty it.
+Repeat steps 1, 2 and 3 till either n liter jug or the m liter jug contains d liters of water.
+Let us say solution 2 achieves the task in C2 no of operations.
+Now our final solution will be a minimum of C1 and C2.
+Now we illustrate how both of the solutions work. Suppose there are a 3 liter jug and a 5 liter jug to measure 4 liters water so m = 3,n = 5 and d = 4. The associated Diophantine equation will be 3m + 5n = 4. We use pair (x, y) to represent amounts of water inside the 3-liter jug and 5-liter jug respectively in each pouring step.
+
+/ Using Solution 1, successive pouring steps are: 
+
+(0,0)->(3,0)->(0,3)->(3,3)->(1,5)->(1,0)->(0,1)->(3,1)->(0,4)
+Hence the no of operations you need to perform are 8.
+
+/ Using Solution 2, successive pouring steps are:  
+
+(0,0)->(0,5)->(3,2)->(0,2)->(2,0)->(2,5)->(3,4)
+Hence the no of operations you need to perform are 6.
+Therefore, we would use solution 2 to measure 4 liters of water in 6 operations or moves. 
+
 ---
  
 # 3 Bulbs and 3 Switches
 There is a room with a door (closed) and three light bulbs. Outside the room, there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. Identify each switch with its bulb. All bulbs are in working condition.
 
+Solution:
+
+Let the bulbs be X, Y, and Z 
+Turn on switch X for 5 to 10 minutes. Turn it off and turn on switch Y. Open the door and touch the light bulb. 
+1. the light is on from the bulb, it is Y 
+
+Now we will check the other two off bulbs 
+2. the bulb which is hot, is X 
+3. the bulb which is cold, is Z  
+
 ---
  
 # How to Measure 45 minutes using two identical wires?
 How do we measure forty-five minutes using two identical wires, each of which takes an hour to burn? We have matchsticks with us. The wires burn non-uniformly. So, for example, the two halves of wire might burn in 10 minutes and 50 minutes respectively.
+
+Solution
+
+If we light a stick, it takes 60 minutes to burn completely. What if we light the stick from both sides? It will take exactly half the original time, i.e. 30 minutes to burn completely.
+
+0 minutes – Light stick 1 on both sides and stick 2 on one side.
+
+30 minutes – Stick 1 will be burnt out. Light the other end of stick 2.
+
+45 minutes – Stick 2 will be burnt out. Thus 45 minutes is completely measured.
 
 ---
 

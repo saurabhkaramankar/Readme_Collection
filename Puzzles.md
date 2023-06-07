@@ -234,6 +234,11 @@ then answer is a1,a2,a3,b1,c1.
 HENCE ANSWER is 7 RACES 
 
 Please note that the 7 races work for the case also when all top 3 horses are same group or any top two horses are in same group. The group which has top 3 horses would always have winner in 6th race. In 7th race, we consider 2nd and 3rd horses of the group whose horse is overall winner. We also consider 2nd horse of the group whose horse came 2nd in 6th race. 
+![WhatsApp Image 2023-06-07 at 23 29 30](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/622a50ba-a5c9-43f6-b91f-14161c10fc0a)
+![WhatsApp Image 2023-06-07 at 23 29 33 (1)](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/b65b9409-598a-47bd-80f8-a0f9c5de333d)
+![WhatsApp Image 2023-06-07 at 23 29 33](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/b08c79b0-4526-42e7-90ad-34c31b683c48)
+![WhatsApp Image 2023-06-07 at 23 29 34](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/e8e0a24d-98ef-4c4b-a125-428aa41d453c)
+
 
 ---
 
@@ -459,3 +464,12 @@ EXPLANATION-
 7 Minutes – The seven minute glass runs out. Flip the seven minute glass.
 8 Minutes – The four minute glass runs out; the seven minute glass has been running for one minute. Flip the seven minute glass.
 9 Minutes – The seven minute glass runs out.
+
+
+---
+
+# Maximum Choclates.
+
+![WhatsApp Image 2023-06-07 at 23 29 32](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/692fa581-06ff-4f68-a919-0f13f5c790f1)
+![WhatsApp Image 2023-06-07 at 23 29 31](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/0ed1a7c6-3b16-4f31-a731-4b80bc8bba8b)
+![WhatsApp Image 2023-06-07 at 23 29 31 (1)](https://github.com/saurabhkaramankar/Readme_Collection/assets/70636541/ae0ee0cf-b240-473e-b47f-efd7d51afd1d)
